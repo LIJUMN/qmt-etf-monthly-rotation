@@ -1,0 +1,180 @@
+{
+  "pool": {
+    "sh512480": "半导体ETF",
+    "sh159915": "创业板ETF",
+    "sh512000": "券商ETF",
+    "sh512660": "军工ETF",
+    "sh515790": "光伏ETF",
+    "sh512400": "有色金属ETF"
+  },
+  "best_params": {
+    "l1": "20",
+    "l2": "90",
+    "safe": "gold",
+    "cagr": 4.2,
+    "maxdd": -47.6,
+    "calmar": 0.09,
+    "sharpe": 0.29
+  },
+  "grid_top10": [
+    {
+      "l1": 20,
+      "l2": 90,
+      "safe": "gold",
+      "cagr": 4.2,
+      "maxdd": -47.6,
+      "calmar": 0.09,
+      "sharpe": 0.29
+    },
+    {
+      "l1": 20,
+      "l2": 90,
+      "safe": "cash",
+      "cagr": 1.7,
+      "maxdd": -51.9,
+      "calmar": 0.03,
+      "sharpe": 0.22
+    },
+    {
+      "l1": 40,
+      "l2": 120,
+      "safe": "gold",
+      "cagr": 0.7,
+      "maxdd": -52.4,
+      "calmar": 0.01,
+      "sharpe": 0.19
+    },
+    {
+      "l1": 40,
+      "l2": 120,
+      "safe": "none",
+      "cagr": -2.4,
+      "maxdd": -69.3,
+      "calmar": -0.03,
+      "sharpe": 0.11
+    },
+    {
+      "l1": 20,
+      "l2": 40,
+      "safe": "gold",
+      "cagr": -1.7,
+      "maxdd": -57.7,
+      "calmar": -0.03,
+      "sharpe": 0.13
+    },
+    {
+      "l1": 20,
+      "l2": 90,
+      "safe": "none",
+      "cagr": -3.8,
+      "maxdd": -71.5,
+      "calmar": -0.05,
+      "sharpe": 0.07
+    },
+    {
+      "l1": 20,
+      "l2": 60,
+      "safe": "gold",
+      "cagr": -3.3,
+      "maxdd": -60.8,
+      "calmar": -0.05,
+      "sharpe": 0.08
+    },
+    {
+      "l1": 20,
+      "l2": 60,
+      "safe": "cash",
+      "cagr": -3.8,
+      "maxdd": -61.0,
+      "calmar": -0.06,
+      "sharpe": 0.06
+    },
+    {
+      "l1": 20,
+      "l2": 40,
+      "safe": "cash",
+      "cagr": -3.7,
+      "maxdd": -58.5,
+      "calmar": -0.06,
+      "sharpe": 0.07
+    },
+    {
+      "l1": 20,
+      "l2": 120,
+      "safe": "gold",
+      "cagr": -3.2,
+      "maxdd": -51.2,
+      "calmar": -0.06,
+      "sharpe": 0.07
+    }
+  ],
+  "bench": {
+    "半导体ETF": {
+      "cagr": 8.6,
+      "maxdd": -62.5,
+      "calmar": 0.14,
+      "sharpe": 0.41
+    },
+    "创业板ETF": {
+      "cagr": 0.6,
+      "maxdd": -56.6,
+      "calmar": 0.01,
+      "sharpe": 0.17
+    },
+    "券商ETF": {
+      "cagr": -2.2,
+      "maxdd": -41.6,
+      "calmar": -0.05,
+      "sharpe": 0.04
+    },
+    "军工ETF": {
+      "cagr": -0.6,
+      "maxdd": -50.9,
+      "calmar": -0.01,
+      "sharpe": 0.13
+    },
+    "光伏ETF": {
+      "cagr": -6.0,
+      "maxdd": -67.1,
+      "calmar": -0.09,
+      "sharpe": -0.01
+    },
+    "有色金属ETF": {
+      "cagr": 10.1,
+      "maxdd": -56.8,
+      "calmar": 0.18,
+      "sharpe": 0.45
+    },
+    "黄金ETF(避险)": {
+      "cagr": 14.7,
+      "maxdd": -30.5,
+      "calmar": 0.48,
+      "sharpe": 0.9
+    },
+    "沪深300(基准)": {
+      "cagr": -1.3,
+      "maxdd": -44.7,
+      "calmar": -0.03,
+      "sharpe": 0.03
+    }
+  },
+  "segments": {
+    "H1": {
+      "cagr": -4.7,
+      "maxdd": -45.4,
+      "calmar": -0.1,
+      "sharpe": -0.02
+    },
+    "H2": {
+      "cagr": 8.0,
+      "maxdd": -39.3,
+      "calmar": 0.2,
+      "sharpe": 0.4
+    }
+  },
+  "window": [
+    "2020-12-18",
+    "2026-10-16"
+  ],
+  "corr_mean": 0.557
+}
